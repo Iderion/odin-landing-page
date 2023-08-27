@@ -67,12 +67,6 @@ header #blank-box {
     
 }
 
-/* Info Box */
-.info-box {
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
 /* Outer Flexbox Container */
 .top-info-box .outer-flex-container {
     display: flex;
@@ -121,6 +115,60 @@ header #blank-box {
     flex: 1;
     background-color: #E5E7EB;
 }
+
+/* Info Box */
+.info-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Info Box */
+.info-box .main-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top and Bottom Boxes */
+.top-box, .bottom-box {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* Middle Box */
+.middle-box {
+    display: flex;
+}
+
+/* Middle Blank Boxes */
+.middle-box .middle-blank-box {
+    flex: 1;
+}
+
+/* Middle Content Boxes */
+.middle-box .middle-content-box {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+/* Image Box */
+.image-box {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    /* Add image here */
+}
+
+/* Text Box */
+.text-box p {
+    text-align: center;
+    width: 200px;
+}
+
 
 /* Quote Box */
 .quote-box {
