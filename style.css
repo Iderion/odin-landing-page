@@ -143,7 +143,7 @@ header #blank-box {
 
 /* Middle Blank Boxes */
 .middle-box .middle-blank-box {
-    flex: 1;
+    flex: 4;
 }
 
 /* Middle Content Boxes */
@@ -271,4 +271,9 @@ footer {
     padding: 20px;
     text-align: center;
     color: #E5E7EB;
+}
+
+/* Debug lines */
+* {
+    border: 1px solid red; /* or any color that stands out */
 }
