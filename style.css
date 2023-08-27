@@ -1,0 +1,55 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 0px;
+}
+
+/* Top Info Box */
+.top-info-box {
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+/* Info Box */
+.info-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Quote Box */
+.quote-box {
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+/* Bottom Info Box */
+.bottom-info-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
