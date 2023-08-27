@@ -101,7 +101,7 @@ header #blank-box {
 }
 
 .nested-bottom button {
-    background-color: #3883F6;
+    background-color: #3882F6;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -208,12 +208,67 @@ header #blank-box {
 /* Bottom Info Box */
 .bottom-info-box {
     background-color: #f1f1f1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Call to Action Container */
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
     padding: 20px;
 }
+
+/* Text Container */
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Upper and Lower Text */
+.upper-text {
+    font-size: 24px;
+    color: #f1f1f1;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.lower-text {
+    font-size: 18px;
+    color: #f1f1f1;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/* Button */
+.button-container button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 
 /* Footer */
 footer {
     background-color: #1F2937;
     padding: 20px;
     text-align: center;
+    color: #E5E7EB;
 }
