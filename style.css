@@ -312,15 +312,25 @@ header a:active {
 }
 
 /* Button */
-.button-container button {
+.starterset-button {
+    display: inline-block;
     background-color: #3882F6;
     font-weight: bold;
     color: white;
     border: 2px solid #f1f1f1;
     border-radius: 5px;
     padding: 10px 20px;
+    text-decoration: none;
     cursor: pointer;
 }
+
+.starterset-button:hover {
+    background-color: white;
+    color: #3882F6;
+    border: none;
+}
+
+
 
 
 /* Footer */
@@ -329,4 +339,25 @@ footer {
     padding: 20px;
     text-align: center;
     color: #E5E7EB;
+}
+
+footer a {
+    text-decoration: none;  /* removes underline */
+    color: inherit;  /* takes on the color of the parent, keeping it consistent */
+}
+
+/* Keep links looking the same even after they've been clicked */
+footer a:visited {
+    color: inherit;
+}
+
+/* No change on hover */
+footer a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* No change on active click */
+footer a:active {
+    color: inherit;
 }
