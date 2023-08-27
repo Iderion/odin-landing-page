@@ -131,25 +131,41 @@ header a:active {
 }
 
 .nested-middle {
-    font-size: 24px;
+    font-size: 18px;
     color: #B1B1B1;
+    padding-top: 5px;
 }
 
-.nested-bottom button {
+.nested-bottom .dice-button {
+    display: inline-block;
     background-color: #3882F6;
     color: white;
     padding: 10px 20px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
+    text-decoration: none;
 }
 
-/* Image Placeholder */
+.nested-bottom .dice-button:hover {
+    background-color: white;
+    color: #3882F6;
+    border: none;
+}
+
+
 .image-placeholder {
     flex: 1;
-    background-color: #E5E7EB;
+    background-image: url('./images/tabletop-adventures.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid #1F2931; /* Adds a border */
+    border-radius: 10px; /* Rounds the corners */
 }
+
 
 /* Info Box */
 .info-box {
