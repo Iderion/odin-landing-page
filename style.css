@@ -8,7 +8,16 @@
 /* Body and Global Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1;
+    background-color: black; /* Entire page background */
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%; /* Left and right margins */
 }
 
 /* Header Section */
@@ -29,10 +38,88 @@ main {
     padding: 20px;
 }
 
+/* Flexbox Container in Header */
+header .flex-container {
+    display: flex;
+}
+
+/* Flexbox Items in Header */
+header .flex-item {
+    flex: 1; /* Default to equally growing */
+}
+
+/* Specific Flexbox Items in Header */
+header #image-box {
+    flex: 4; /* 50% */
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding-right: 25%;
+}
+
+header #header-link-1,
+header #header-link-2,
+header #header-link-3,
+header #blank-box {
+    flex: 1; /* 12.5% */
+    font-size: 18px;
+    color: #F9FAF8;
+    
+}
+
 /* Info Box */
 .info-box {
     background-color: #f1f1f1;
     padding: 20px;
+}
+
+/* Outer Flexbox Container */
+.top-info-box .outer-flex-container {
+    display: flex;
+    margin: 100px auto;
+    width: 75%; /* To give left and right margin of 12.5% */
+}
+
+/* Inner Flexbox Container */
+.top-info-box .inner-flex-container {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+/* Nested Flexboxes */
+.nested-top,
+.nested-middle,
+.nested-bottom {
+    flex: 1;
+}
+
+/* Specific Styles for Nested Flexboxes */
+.nested-top {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.nested-middle {
+    font-size: 24px;
+    color: #B1B1B1;
+}
+
+.nested-bottom button {
+    background-color: #3883F6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Image Placeholder */
+.image-placeholder {
+    flex: 1;
+    background-color: #E5E7EB;
 }
 
 /* Quote Box */
